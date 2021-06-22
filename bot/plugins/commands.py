@@ -65,7 +65,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
+                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
                                 )
                         ]
                     ]
@@ -84,7 +84,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
+                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
                                 )
                         ]
                     ]
@@ -103,7 +103,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
+                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
                                 )
                         ]
                     ]
