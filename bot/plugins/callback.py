@@ -81,7 +81,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("⏮ Back", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("⬅️ Back", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -89,13 +89,13 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("⏮ Back", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("🚀 Go to Next page 🚀", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("⬅️ Back", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("📜 Go to Next page 📜", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"⭕️ Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ⭕️", callback_data="ignore")
+            InlineKeyboardButton(f"📖 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} ", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"𝐆𝐫𝐨𝐮𝐩:- @Cinemahub182\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- <code>{leng}</code>\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>"
+    text=f"𝐌𝐨𝐯𝐢𝐞𝐬:- @PrimeFlix_Media\n𝐒𝐞𝐫𝐢𝐞𝐬: @PrimeFlix_TVseries\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- <code>{leng}</code>\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('👑 CREATOR', url='https://t.me/CLaY995'),
+            InlineKeyboardButton('SOURCE CODE 🧾', url ='https://t.me/Oomban_ULLATH')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('GROUP 💬', url='https://t.me/PrimeFlix_Chats')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
