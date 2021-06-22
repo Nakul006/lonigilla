@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("💢 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ 💢", url="https://t.me/Cinemahub182")
+                    InlineKeyboardButton("❕ JOIN OUR CHANNEL - PFM ❕", url="https://t.me/PrimeFlix_Media")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -86,7 +86,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"⚜{file_size} {file_name}"
+            button_text = f"📂:{file_size} {file_name}"
             
 
             if file_type == "video":
@@ -152,13 +152,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("🚀 Go to Next page 🚀", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("📃 Go to Next page 📃", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"⭕️ Page 1/{len_result if len_result < max_pages else max_pages} ⭕️", callback_data="ignore")
+            InlineKeyboardButton(f"📖 Page 1/{len_result if len_result < max_pages else max_pages} 📖", callback_data="ignore")
         ])
         
         
@@ -208,7 +208,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"𝐆𝐫𝐨𝐮𝐩:- @Cinemahub182\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
+                text=f"𝐌𝐨𝐯𝐢𝐞𝐬:- @PrimeFlix_Media\n𝐒𝐞𝐫𝐢𝐞𝐬: @PrimeFlix_TVseries\n\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
