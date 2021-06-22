@@ -65,7 +65,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
                                 )
                         ]
                     ]
@@ -84,7 +84,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
                                 )
                         ]
                     ]
@@ -103,7 +103,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    '😃 Developer 😃', url="https://t.me/Anandhukuttu"
+                                    '😃 CREATOR 😃', url="https://t.me/CLaY995"
                                 )
                         ]
                     ]
@@ -116,10 +116,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/Anandhukuttu'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Anandhu123555/Autofilter-look')
+        InlineKeyboardButton('CREATOR', url='https://t.me/CLaY995'),
+        InlineKeyboardButton('SOURCE CODE 🧾', url ='https://t.me/Oomban_ULLATH')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/Anandhukuttu')
+        InlineKeyboardButton('GROUP 💬', url='https://t.me/Anandhukuttu')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
