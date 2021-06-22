@@ -4,26 +4,13 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {} How are You!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hello there {} How are You😊!!</b>
+<i>Am Just an Advance Auto Filter Bot for @PrimeFlix_Chats 💬
 
-You are not  able to add me to your group...😐
-But you can able to create me.......😍
-
-The code of this bot was edited by:--> @Anandhukuttu ⚜
-Only editer not auther.......😅😅😅
-
-You are able to contact me:--> @Anandhukuttu 📵
 </i>"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
-
-<i>
--> Add Me To Any Group And Make Me Admin..😎
--> Add Me To Your Desired Channel..😜
--> Doubt"s contact--> @Anandhukuttu ☺️
-</i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
 
@@ -49,13 +36,13 @@ You are able to contact me:--> @Anandhukuttu 📵
             
 """
     
-    ABOUT_TEXT = """<b>➥ My Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ My Name</b> : <code>Call Me whatever u Like</code>
     
-<b>➥ My Creator</b> : <b><i><a href="https://t.me/Anandhukuttu">Anandhu</a></i></b>
+<b>👑 My Creator</b> : <b><i><a href="https://t.me/CLaY995">CLÆY</a></i></b>
 
-<b>➥ My Language</b> : <code>Python3</code>
+<b>📰 My Language</b> : <code>Python3</code>
 
-<b>➥ My Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>📑 My Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/Anandhu123555/Autofilter-look">Click Me</a></i>
+<b>📜 Source Code</b> : <i><a href="https://t.me/Oomban_ULLATH">Click Here</a></i>
 """
