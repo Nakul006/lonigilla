@@ -119,7 +119,7 @@ Join on our channel to get movies ✅
         InlineKeyboardButton('CREATOR', url='https://t.me/CLaY995'),
         InlineKeyboardButton('SOURCE CODE 🧾', url ='https://t.me/Oomban_ULLATH')
     ],[
-        InlineKeyboardButton('GROUP 💬', url='https://t.me/Anandhukuttu')
+        InlineKeyboardButton('GROUP 💬', url='https://t.me/PrimeFlix_Chats')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
