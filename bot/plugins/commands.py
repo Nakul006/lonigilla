@@ -116,12 +116,12 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('CREATOR', url='https://t.me/CLaY995'),
-        InlineKeyboardButton('SOURCE CODE 🧾', url ='https://t.me/Oomban_ULLATH')
+        InlineKeyboardButton('Ｍ Ｏ Ｖ Ｉ Ｅ Ｓ', url='https://t.me/PrimeFlix_Media'),
+        InlineKeyboardButton('Ｓ Ｅ Ｒ Ｉ Ｅ Ｓ', url ='https://t.me/PrimeFlix_TVseries')
     ],[
-        InlineKeyboardButton('GROUP 💬', url='https://t.me/PrimeFlix_Chats')
+        InlineKeyboardButton('Ｇ Ｒ Ｏ Ｕ Ｐ', url='https://t.me/PrimeFlix_Chats')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('H E L P', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
