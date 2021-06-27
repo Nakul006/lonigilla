@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("📣 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 - 𝐏𝐅𝐌 📣", url="https://t.me/PrimeFlix_Media")
+                    InlineKeyboardButton("📣 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 - 𝐏𝐅𝐌 📣", url="https://t.me/CinematoosNew")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -208,7 +208,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"𝐌𝐨𝐯𝐢𝐞𝐬:- @PrimeFlix_Media\n𝐒𝐞𝐫𝐢𝐞𝐬: @PrimeFlix_TVseries\n\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
+                text=f"𝐌𝐨𝐯𝐢𝐞𝐬:- @CinematoosNew\n𝐒𝐞𝐫𝐢𝐞𝐬: @CMSeries\n\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
