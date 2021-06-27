@@ -65,7 +65,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
+                                    'JOIN OUR CHANNEL', url="https://t.me/CinematoosNew"
                                 )
                         ]
                     ]
@@ -84,7 +84,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
+                                    'JOIN OUR CHANNEL', url="https://t.me/CinematoosNew"
                                 )
                         ]
                     ]
@@ -103,7 +103,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'JOIN OUR CHANNEL', url="https://t.me/PrimeFlix_Media"
+                                    'JOIN OUR CHANNEL', url="https://CinematoosNew"
                                 )
                         ]
                     ]
@@ -116,10 +116,10 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Ｍ Ｏ Ｖ Ｉ Ｅ Ｓ', url='https://t.me/PrimeFlix_Media'),
-        InlineKeyboardButton('Ｓ Ｅ Ｒ Ｉ Ｅ Ｓ', url ='https://t.me/PrimeFlix_TVseries')
+        InlineKeyboardButton('Ｍ Ｏ Ｖ Ｉ Ｅ Ｓ', url='https://t.me/CinematoosNew'),
+        InlineKeyboardButton('Ｓ Ｅ Ｒ Ｉ Ｅ Ｓ', url ='https://t.me/CMSeries')
     ],[
-        InlineKeyboardButton('Ｇ Ｒ Ｏ Ｕ Ｐ', url='https://t.me/PrimeFlix_Chats')
+        InlineKeyboardButton('Ｇ Ｒ Ｏ Ｕ Ｐ', url='https://t.me/CM_Chats')
     ],[
         InlineKeyboardButton('H E L P', callback_data="help")
     ]]
