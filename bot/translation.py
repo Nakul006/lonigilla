@@ -38,11 +38,11 @@ class Translation(object):
     
     ABOUT_TEXT = """<b>➥ My Name</b> : <code>Call Me whatever u Like</code>
     
-<b>👑 My Creator</b> : <b><i><a href="https://t.me/CLaY995">CLÆY</a></i></b>
+<b>👑 My Creator</b> : <b><i><a href="https://t.me/Pablo_NK">PabLo</a></i></b>
 
 <b>📰 My Language</b> : <code>Python3</code>
 
 <b>📑 My Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>📜 Source Code</b> : <i><a href="https://t.me/Oomban_ULLATH">Click Here</a></i>
+<b>📜 Source Code</b> : <i><a href="https://t.me/CM_Releases_bot?start=60dc10123deef">Click Here</a></i>
 """
